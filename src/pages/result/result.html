@@ -1,0 +1,15 @@
+<ion-content padding class="modal transparent-header white-text">
+  <ion-header>
+    <ion-toolbar primary>
+      <ion-buttons right>
+        <button ion-button class="modal-icon" (click)="dismiss()">
+          <img src="assets/icon/modal-close.svg"/>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content padding>
+    <h2>{{question}}</h2>
+    <p>The answer is clearly:</p>
+    <img [src]="gif" />
+  </ion-content>

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page One</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding text-center>
+  <ion-item>
+    <ion-label color="primary" floating>What's your question?</ion-label>
+    <ion-input [(ngModel)]="question" clearInput clearOnEdit="false"></ion-input>
+  </ion-item>
+  <button style="margin-top:150px; height: 12vh;" ion-button (click)="askQuestion()">ASK ME</button>
+</ion-content>

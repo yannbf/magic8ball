@@ -1,0 +1,40 @@
+page-result {
+  .content {
+    background-color: transparent;
+  }
+  .modal {
+    background: linear-gradient(-90deg, rgba(0, 22, 54, .97) 0%, rgba(0, 42, 93, .97) 100%) !important;
+  }
+  .transparent-header {
+    .toolbar-content,
+    .back-button {
+      color: white;
+    }
+    .toolbar-background,
+    ion-navbar,
+    ion-header {
+      background: transparent !important;
+      background-color: transparent !important;
+    }
+    .header-md::after,
+    .toolbar-background-ios {
+      background-image: none;
+      border-bottom: 0;
+    }
+  }
+  .white-text {
+    p,
+    h3,
+    h2,
+    h1 {
+      font-weight: bold;
+      color: white;
+      z-index: 2;
+    }
+  }
+  .modal-icon img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+  }
+}
